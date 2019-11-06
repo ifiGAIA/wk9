@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body
+{
+  width: 100%;
+  background-image: url(img/1107_daily-04_0.png); 
+  background-color: rgb(0, 0, 0);
+  background-size: cover;    
+  background-repeat: no-repeat;
+}
+    .v1
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo
+    {
+        height: 130px;
+        width: 120px;
+        position: relative;
+       margin-top: 20px;
+       margin-left: 30px;
+      }
+    nav ul
+    {
+        width: 300px;
+        font-family: Arial,"微軟正黑體",BoldMT ,san-serif;
+        position: absolute;   
+        display: flex;
+        justify-content:  space-between;
+        flex-direction: row;
+        right: 2.5vw;
+        top: 2.5vw;
+    }
+    nav ul li
+    {
+      display: inline-block;
+        color: #fff;
+        margin-right: 0px;
+    }
+    nav ul li a
+    {
+        text-decoration: none;
+        list-style-type: none;
+        color: #fff;
+       
+        transition: color 0.7s ;
+    }
+    nav ul li a:hover
+    {
+        
+        color: rgb(255, 247, 0);
+       
+    }
+    .v1-3
+    {
+        z-index: 3;
+    }
+    .v1-3>a
+    {
+        color: rgb(255, 247, 0);
+    }
+    .line
+    {
+        width: 2px;
+        height: 20px;
+        background-color: #ffffff;
+       
+    }
+    .logo:hover
+    {
+        filter:contrast(50%);
+    }
+   
+    .black_overlay
+    { 
+        display: none; 
+        position: absolute; 
+        top: 0%; 
+        left: 0%; 
+        width: 100%; 
+        height: 100%; 
+        background-color: black; 
+        z-index:1001; 
+        -moz-opacity: 0.8; 
+        opacity:.80; 
+        filter: alpha(opacity=88); 
+    } 
+    
+    .im1
+    {
+        position: relative;
+        left: 390px;
+        top: 50px;
+    }
+    .im1 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon1
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%;  
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107水瓶_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon1 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon1 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im2
+    {
+        position: relative;
+        left: 410px;
+        top: 50px;
+    }
+    .im2 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon2 
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107雙魚_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon2 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon2 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im3
+    {
+        position: relative;
+        left: 410px;
+        top: 50px;
+    }
+    .im3 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon3
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107牡羊_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon3 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon3 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im4
+    {
+        position: relative;
+        left: 420px;
+        top: 50px;
+    }
+    .im4 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon4 
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%;  
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107金牛_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon4 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon4 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im5
+    {
+        position: relative;
+        left: 420px;
+        top: 50px;
+    }
+    .im5 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon5
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107雙子_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon5 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon5 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im6
+    {
+        position: relative;
+        left: 430px;
+        top: 50px;
+    }
+    .im6 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon6
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107巨蟹_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon6 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon6 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im7
+    {
+        position: relative;
+        left: -587px;
+        top: 300px;
+    }
+    .im7 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon7
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%;
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107獅子_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon7 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon7 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im8
+    {
+        position: relative;
+        left: -575px;
+        top: 300px;
+    }
+    .im8 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon8
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107處女_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon8 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon8 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im9
+    {
+        position: relative;
+        left: -570px;
+        top: 300px;
+    }
+    .im9 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon9
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107天秤_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon9 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon9 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im10
+    {
+        position: relative;
+        left: 920px;
+        top: 166px;
+    }
+    .im10 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon10 
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107_daily-03_0.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon10 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon10 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im11
+    {
+        position: relative;
+        left: 920px;
+        top: 166px;
+    }
+    .im11 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon11
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%; 
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107射手_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon11 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon11 a img:hover 
+    {
+        filter:contrast(50%);
+    }
+    .im12
+    {
+        position: relative;
+        left: 930px;
+        top: 166px;
+    }
+    .im12 img:hover
+    {
+        filter:contrast(200%);
+    }
+    .icon12
+    { 
+        display: none; 
+        position: absolute;
+        top: 25%; 
+        left: 25%; 
+        width: 55%; 
+        height: 55%;
+        z-index:1002; 
+        overflow: auto; 
+        background-image: url(img/1107摩羯_daily-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    .icon12 a img 
+    {
+        position: relative;
+        top: 1vw;
+        left: 52vw;
+    }
+    .icon12 a img:hover 
+    {
+        filter:contrast(50%);
+    }
